@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<repositories version="1.0">
+    <repo priority="50" quality="experimental" status="unofficial">
+        <name>particleflux-overlay</name>
+        <description>particleflux's personal gentoo overlay</description>
+        <homepage>https://github.com/particleflux/overlay</homepage>
+        <owner>
+            <name>Stefan Linke</name>
+            <email>particleflux@gmail.com</email>
+        </owner>
+        <source type="git">https://github.com/particleflux/overlay.git</source>
+    </repo>
+</repositories>
