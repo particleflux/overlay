@@ -10,3 +10,8 @@ SRC_URI="https://github.com/FireyFly/hexd/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
+
+src_install() {
+    emake PREFIX="/usr" DESTDIR="${D}" install || die "Install failed"
+    docompress -x /usr/share/man/man1/hexd.1.gz
+}
