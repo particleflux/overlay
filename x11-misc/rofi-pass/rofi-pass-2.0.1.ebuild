@@ -10,7 +10,7 @@ SRC_URI="https://github.com/carnager/rofi-pass/archive/${PV}.tar.gz -> ${P}.tar.
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="extras otp"
+IUSE="extras otp qr"
 
 DEPEND=""
 EXTRA_DEPS="
@@ -19,6 +19,10 @@ EXTRA_DEPS="
 RDEPEND="${DEPEND}
     extras? ( $EXTRA_DEPS )
     otp? ( app-admin/pass-otp )
+    qr? (
+        media-gfx/qrencode
+        media-gfx/feh
+    )
     app-admin/pwgen
     >=app-shells/bash-4.0
     sys-apps/gawk
