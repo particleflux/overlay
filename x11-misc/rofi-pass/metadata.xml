@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<upstream>
+		<doc>https://github.com/carnager/rofi-pass</doc>
+		<bugs-to>https://github.com/carnager/rofi-pass/issues</bugs-to>
+	</upstream>
+	<maintainer type="person">
+		<email>gentoo@particleflux.codes</email>
+	</maintainer>
+	<use>
+		<flag name="extras">Install additional helper scripts</flag>
+		<flag name="otp">Enable pass-otp integration</flag>
+		<flag name="qr">Enable password-as-qrcode rendering</flag>
+	</use>
+</pkgmetadata>
