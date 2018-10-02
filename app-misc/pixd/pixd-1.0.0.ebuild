@@ -12,6 +12,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 src_install() {
-    emake PREFIX="/usr" DESTDIR="${D}" install || die "Install failed"
-    docompress -x /usr/share/man/man1/pixd.1.gz
+	emake PREFIX="/usr" DESTDIR="${D}" install || die "Install failed"
+	docompress -x /usr/share/man/man1/pixd.1.gz
 }

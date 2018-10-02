@@ -14,37 +14,36 @@ IUSE="extras otp qr"
 
 DEPEND=""
 EXTRA_DEPS="
-    dev-lang/python"
+	dev-lang/python"
 
 RDEPEND="${DEPEND}
-    extras? ( $EXTRA_DEPS )
-    otp? ( app-admin/pass-otp )
-    qr? (
-        media-gfx/qrencode
-        media-gfx/feh
-    )
-    app-admin/pwgen
-    >=app-shells/bash-4.0
-    sys-apps/gawk
-    sys-apps/sed
-    x11-misc/rofi
-    x11-misc/xdotool"
-
+	extras? ( $EXTRA_DEPS )
+	otp? ( app-admin/pass-otp )
+	qr? (
+		media-gfx/qrencode
+		media-gfx/feh
+	)
+	app-admin/pwgen
+	>=app-shells/bash-4.0
+	sys-apps/gawk
+	sys-apps/sed
+	x11-misc/rofi
+	x11-misc/xdotool"
 
 src_prepare() {
-    rm Makefile
+	rm Makefile
 
-    eapply_user
+	eapply_user
 }
 
 src_install() {
-    dobin rofi-pass
+	dobin rofi-pass
 
-    if use extras ; then
-        dobin addpass
-        dobin keepass2import.py
-        dobin pass2csv.py
-    fi
+	if use extras ; then
+		dobin addpass
+		dobin keepass2import.py
+		dobin pass2csv.py
+	fi
 
-    dodoc README.md
+	dodoc README.md
 }
