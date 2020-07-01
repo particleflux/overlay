@@ -8,7 +8,6 @@ DESCRIPTION="Improved i3lock with color customization"
 HOMEPAGE="https://github.com/Raymo111/i3lock-color/"
 EGIT_REPO_URI="${HOMEPAGE}"
 
-
 LICENSE="i3lock-color"
 SLOT="0"
 KEYWORDS="~amd64"
@@ -30,8 +29,6 @@ DEPEND="
 	virtual/pkgconfig
 "
 DOCS=( CHANGELOG README.md )
-
-
 
 src_prepare() {
 	default
