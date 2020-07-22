@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<upstream>
+		<doc>https://github.com/z3bra/wendy</doc>
+		<bugs-to>https://github.com/z3bra/wendy/issues</bugs-to>
+	</upstream>
+	<maintainer type="person">
+		<email>gentoo@particleflux.codes</email>
+	</maintainer>
+</pkgmetadata>
