@@ -1,0 +1,14 @@
+---
+name: QA
+on:
+  schedule:
+    - cron: '1 23 * * *'
+  push:
+  pull_request:
+jobs:
+  repoman:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Repoman
+        uses: particleflux/repoman-ebuild-qa-action@ferki-fixes
