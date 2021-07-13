@@ -2,11 +2,11 @@
 <!DOCTYPE repositories SYSTEM "http://www.gentoo.org/dtd/repositories.dtd">
 <repositories version="1.0">
     <repo priority="50" quality="experimental" status="unofficial">
-        <name>particleflux-overlay</name>
+        <name>particleflux</name>
         <description>particleflux's personal gentoo overlay</description>
         <homepage>https://github.com/particleflux/overlay</homepage>
-        <owner>
-            <email>particleflux@gmail.com</email>
+        <owner type="person">
+            <email>gentoo@particleflux.codes</email>
             <name>Stefan Linke</name>
         </owner>
         <source type="git">https://github.com/particleflux/overlay.git</source>
