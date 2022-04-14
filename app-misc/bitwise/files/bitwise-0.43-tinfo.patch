@@ -1,0 +1,12 @@
+diff --git a/configure.ac b/configure.ac
+index 3e4ebde..75a41ac 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -27,6 +27,7 @@ fi
+ # Checks for libraries.
+ AC_CHECK_LIB([form], [form_driver])
+ AC_CHECK_LIB([ncurses], [newwin])
++AC_CHECK_LIB([tinfo], [keypad])
+ AC_SEARCH_LIBS([sqrt], [m])
+ 
+ # Checks for header files.
