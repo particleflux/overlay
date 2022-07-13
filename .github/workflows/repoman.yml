@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Repoman
-        uses: particleflux/repoman-ebuild-qa-action@ferki-fixes
+        uses: particleflux/repoman-ebuild-qa-action@v2
