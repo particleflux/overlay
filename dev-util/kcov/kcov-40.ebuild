@@ -19,3 +19,7 @@ RDEPEND="
 	sys-devel/binutils:*
 	sys-libs/zlib"
 DEPEND="${RDEPEND}"
+
+PATCHES=(
+	"${FILESDIR}/${P}-binutils.patch"
+)
