@@ -10,7 +10,6 @@ EGIT_REPO_URI="${HOMEPAGE}"
 
 LICENSE="i3lock-color"
 SLOT="0"
-KEYWORDS="~amd64"
 
 RDEPEND="
 	>=x11-libs/libxkbcommon-0.5.0[X]
