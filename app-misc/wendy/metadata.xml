@@ -2,8 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<upstream>
-		<doc>https://github.com/z3bra/wendy</doc>
-		<bugs-to>https://github.com/z3bra/wendy/issues</bugs-to>
+		<doc>https://git.z3bra.org/wendy/file/README.html</doc>
 	</upstream>
 	<maintainer type="person">
 		<email>gentoo@particleflux.codes</email>

@@ -5,12 +5,11 @@ EAPI=7
 inherit git-r3
 
 DESCRIPTION="Inotify-based directory watcher."
-HOMEPAGE="https://github.com/z3bra/wendy"
-EGIT_REPO_URI="${HOMEPAGE}"
+HOMEPAGE="https://git.z3bra.org/wendy/file/README.html"
+EGIT_REPO_URI="git://z3bra.org/wendy"
 
 LICENSE="ISC"
 SLOT="0"
-KEYWORDS="~amd64"
 
 src_install() {
 	emake PREFIX="/usr" DESTDIR="${D}" MANPREFIX="/usr/share/man" install || die "Install failed"
