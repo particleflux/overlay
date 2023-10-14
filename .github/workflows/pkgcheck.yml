@@ -1,12 +1,7 @@
 ---
 name: pkgcheck
 
-on:
-  schedule:
-    - cron: '1 23 * * *'
-  push:
-    branches: [master]
-  pull_request:
+on: [push, pull_request]
 
 jobs:
   build:
