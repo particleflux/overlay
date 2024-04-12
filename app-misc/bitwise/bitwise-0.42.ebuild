@@ -19,7 +19,7 @@ RDEPEND="${DEPEND}"
 IUSE="debug"
 
 PATCHES=(
-	"${FILESDIR}/${P}-tinfo.patch"
+	"${FILESDIR}/tinfo.patch"
 )
 
 src_prepare() {

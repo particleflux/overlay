@@ -4,6 +4,7 @@
 	<upstream>
 		<doc>https://github.com/mellowcandle/bitwise</doc>
 		<bugs-to>https://github.com/mellowcandle/bitwise/issues</bugs-to>
+		<remote-id type="github">mellowcandle/bitwise</remote-id>
 	</upstream>
 	<maintainer type="person">
 		<email>gentoo@particleflux.codes</email>
