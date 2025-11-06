@@ -4,6 +4,7 @@
 	<upstream>
 		<doc>https://github.com/particleflux/kenny</doc>
 		<bugs-to>https://github.com/particleflux/kenny/issues</bugs-to>
+		<remote-id type="github">particleflux/kenny</remote-id>
 	</upstream>
 	<maintainer type="person">
 		<email>gentoo@particleflux.codes</email>
